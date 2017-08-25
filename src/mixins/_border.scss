@@ -1,0 +1,29 @@
+@mixin border ($color) {
+  border-color: $color;
+}
+
+@mixin border-top ($color) {
+  border-top-color: $color;
+}
+
+@mixin border-bottom ($color) {
+  border-bottom-color: $color;
+}
+
+@mixin border-left ($color) {
+  border-left-color: $color;
+}
+
+@mixin border-right ($color) {
+  border-right-color: $color;
+}
+
+@mixin border-x ($color) {
+  @include border-left($color);
+  @include border-right($color);
+}
+
+@mixin border-y ($color) {
+  @include border-top($color);
+  @include border-bottom($color);
+}

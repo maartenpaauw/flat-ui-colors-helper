@@ -1,0 +1,43 @@
+@import "../mixins/border";
+
+@each $label, $color in $flatuicolors {
+  .border-#{$label} {
+    @include border($color);
+  }
+}
+
+@each $label, $color in $flatuicolors {
+  .border-top-#{$label} {
+    @include border-top($color);
+  }
+}
+
+@each $label, $color in $flatuicolors {
+  .border-bottom-#{$label} {
+    @include border-bottom($color);
+  }
+}
+
+@each $label, $color in $flatuicolors {
+  .border-left-#{$label} {
+    @include border-left($color);
+  }
+}
+
+@each $label, $color in $flatuicolors {
+  .border-right-#{$label} {
+    @include border-right($color);
+  }
+}
+
+@each $label, $color in $flatuicolors {
+  .border-x-#{$label} {
+    @include border-x($color);
+  }
+}
+
+@each $label, $color in $flatuicolors {
+  .border-y-#{$label} {
+    @include border-y($color);
+  }
+}

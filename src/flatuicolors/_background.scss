@@ -1,0 +1,13 @@
+@import "../mixins/background";
+
+@each $label, $color in $flatuicolors {
+  .background-#{$label} {
+    @include background($color);
+  }
+}
+
+@each $label, $color in $flatuicolors {
+  .bg-#{$label} {
+    @include background($color);
+  }
+}
