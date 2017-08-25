@@ -13,11 +13,19 @@
     "@commitlint/config-angular": "3.1.1",
     "husky": "0.14.3",
     "lint-staged": "4.0.4",
-    "stylelint": "8.0.0"
+    "stylelint": "8.0.0",
+    "stylelint-config-standard": "17.0.0",
+    "stylelint-scss": "2.0.1"
   },
   "lint-staged": {
     "*.scss": [
       "stylelint --syntax scss"
     ]
+  },
+  "stylelint": {
+    "plugins": [
+      "stylelint-scss"
+    ],
+    "extends": "stylelint-config-standard"
   }
 }
