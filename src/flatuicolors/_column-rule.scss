@@ -1,0 +1,7 @@
+@import "../mixins/column-rule";
+
+@each $label, $color in $flatuicolors {
+  .column-rule-#{$label} {
+    @include column-rule($color);
+  }
+}

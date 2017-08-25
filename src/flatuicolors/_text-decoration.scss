@@ -1,0 +1,7 @@
+@import "../mixins/text-decoration";
+
+@each $label, $color in $flatuicolors {
+  .text-decoration-#{$label} {
+    @include text-decoration($color);
+  }
+}

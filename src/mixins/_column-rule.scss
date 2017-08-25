@@ -1,0 +1,5 @@
+@mixin column-rule ($color) {
+  -webkit-column-rule-color: $color;
+  -moz-column-rule-color: $color;
+  column-rule-color: $color;
+}

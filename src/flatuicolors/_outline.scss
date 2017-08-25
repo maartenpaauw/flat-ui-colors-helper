@@ -1,0 +1,7 @@
+@import "../mixins/outline";
+
+@each $label, $color in $flatuicolors {
+  .outline-#{$label} {
+    @include outline($color);
+  }
+}

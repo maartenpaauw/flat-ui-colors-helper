@@ -1,0 +1,7 @@
+@import "../mixins/text";
+
+@each $label, $color in $flatuicolors {
+  .#{$label} {
+    @include text($color);
+  }
+}
