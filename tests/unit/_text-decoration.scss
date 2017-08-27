@@ -1,0 +1,16 @@
+@import "true";
+@import "../../src/mixins/text-decoration";
+
+@include describe("text-decoration [mixin]") {
+  @include it("text-decoration() should make a valid text decoration color.") {
+    @include assert {
+      @include output {
+        @include text-decoration(#123456);
+      }
+
+      @include expect {
+        text-decoration-color: #123456;
+      }
+    }
+  }
+}
