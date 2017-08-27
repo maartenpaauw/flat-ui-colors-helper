@@ -1,0 +1,16 @@
+@import "true";
+@import "../../src/mixins/background";
+
+@include describe("background [mixin]") {
+  @include it("background() should make a valid background color.") {
+    @include assert {
+      @include output {
+        @include background(#123456);
+      }
+
+      @include expect {
+        background-color: #123456;
+      }
+    }
+  }
+}

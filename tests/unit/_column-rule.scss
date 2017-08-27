@@ -1,0 +1,18 @@
+@import "true";
+@import "../../src/mixins/column-rule";
+
+@include describe("column-rule [mixin]") {
+  @include it("column-rule() should make a valid column rule color.") {
+    @include assert {
+      @include output {
+        @include column-rule(#123456);
+      }
+
+      @include expect {
+        -webkit-column-rule-color: #123456;
+        -moz-column-rule-color: #123456;
+        column-rule-color: #123456;
+      }
+    }
+  }
+}

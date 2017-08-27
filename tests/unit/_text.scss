@@ -1,0 +1,16 @@
+@import "true";
+@import "../../src/mixins/text";
+
+@include describe("text [mixin]") {
+  @include it("text() should make a valid text color.") {
+    @include assert {
+      @include output {
+        @include text(#123456);
+      }
+
+      @include expect {
+        color: #123456;
+      }
+    }
+  }
+}
