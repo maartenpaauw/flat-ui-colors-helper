@@ -1,4 +1,5 @@
 .sass-cache/
 *.lock
+package-lock.json
 *.map
 *.css
