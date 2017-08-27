@@ -1,0 +1,9 @@
+before_install:
+  - gem install sass
+
+install:
+  - npm install
+
+script:
+  - npm run test
+  - npm run build
