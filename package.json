@@ -36,5 +36,9 @@
     "rules": {
       "at-rule-no-unknown": null
     }
+  },
+  "greenkeeper": {
+    "branchPrefix": "dependency-update-",
+    "label": "dependency-update"
   }
 }
