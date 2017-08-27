@@ -7,7 +7,10 @@
   "scripts": {
     "commitmsg": "commitlint -e",
     "precommit": "lint-staged",
-    "test": "mocha ./tests/unit/runner.js"
+    "test": "mocha ./tests/unit/runner.js",
+    "compile": "scss src/flatuicolors.scss:flatuicolors.css --style expanded",
+    "compile-compressed": "scss src/flatuicolors.scss:flatuicolors.min.css --style compressed",
+    "build": "yarn run compile && yarn run compile-compressed"
   },
   "devDependencies": {
     "@commitlint/cli": "3.1.3",
