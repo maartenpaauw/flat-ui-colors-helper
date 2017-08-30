@@ -1,0 +1,90 @@
+@import "true";
+@import "../../src/mixins/border";
+
+@include describe("border [mixin]") {
+  @include it("border() should make a valid border color.") {
+    @include assert {
+      @include output {
+        @include border(#123456);
+      }
+
+      @include expect {
+        border-color: #123456;
+      }
+    }
+  }
+
+  @include it("border-top() should make a valid border top color.") {
+    @include assert {
+      @include output {
+        @include border-top(#123456);
+      }
+
+      @include expect {
+        border-top-color: #123456;
+      }
+    }
+  }
+
+  @include it("border-bottom() should make a valid border bottom color.") {
+    @include assert {
+      @include output {
+        @include border-bottom(#123456);
+      }
+
+      @include expect {
+        border-bottom-color: #123456;
+      }
+    }
+  }
+
+  @include it("border-left() should make a valid border left color.") {
+    @include assert {
+      @include output {
+        @include border-left(#123456);
+      }
+
+      @include expect {
+        border-left-color: #123456;
+      }
+    }
+  }
+
+  @include it("border-right() should make a valid border right color.") {
+    @include assert {
+      @include output {
+        @include border-right(#123456);
+      }
+
+      @include expect {
+        border-right-color: #123456;
+      }
+    }
+  }
+
+  @include it("border-x() should make a valid border left and right color.") {
+    @include assert {
+      @include output {
+        @include border-x(#123456);
+      }
+
+      @include expect {
+        border-left-color: #123456;
+        border-right-color: #123456;
+      }
+    }
+  }
+
+  @include it("border-y() should make a valid border top and bottom color.") {
+    @include assert {
+      @include output {
+        @include border-y(#123456);
+      }
+
+      @include expect {
+        border-top-color: #123456;
+        border-bottom-color: #123456;
+      }
+    }
+  }
+}
