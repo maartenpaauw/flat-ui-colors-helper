@@ -2,8 +2,26 @@
   "name": "flat-ui-colors-helpers",
   "version": "0.0.1",
   "description": "CSS helpers for Flat UI Colors",
-  "author": "Maarten Paauw <maartenpaauw@gmail.com>",
+  "keywords": [
+    "flatuicolors",
+    "helper",
+    "classes"
+  ],
+  "homepage": "https://github.com/maartenpaauw/flat-ui-colors-helper",
+  "bugs": {
+    "url": "https://github.com/maartenpaauw/flat-ui-colors-helper/issues"
+  },
   "license": "GPL-3.0",
+  "author": {
+    "name": "Maarten Paauw",
+    "email": "maartenpaauw@gmail.com",
+    "url": "http://maartenpaauw.com/"
+  },
+  "main": "src/flatuicolors.scss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maartenpaauw/flat-ui-colors-helper.git"
+  },
   "scripts": {
     "commitmsg": "commitlint -e",
     "precommit": "lint-staged",
