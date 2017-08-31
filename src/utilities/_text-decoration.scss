@@ -7,7 +7,7 @@
 }
 
 @each $label, $color in $flatuicolors {
-  .text-decoration-hover#{$label} {
+  .text-decoration-hover-#{$label} {
     @include text-decoration-hover($color);
   }
 }
