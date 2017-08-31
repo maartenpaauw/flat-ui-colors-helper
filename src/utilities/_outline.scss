@@ -5,3 +5,9 @@
     @include outline($color);
   }
 }
+
+@each $label, $color in $flatuicolors {
+  .outline-hover-#{$label} {
+    @include outline-hover($color);
+  }
+}

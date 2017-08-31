@@ -13,4 +13,18 @@
       }
     }
   }
+
+  @include it("outline-hover() should make a valid outline hover color.") {
+    @include assert {
+      @include output {
+        @include outline-hover(#123456);
+      }
+
+      @include expect {
+        &:hover {
+          outline-color: #123456;
+        }
+      }
+    }
+  }
 }

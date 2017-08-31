@@ -1,3 +1,9 @@
 @mixin outline ($color) {
   outline-color: $color;
 }
+
+@mixin outline-hover ($color) {
+  &:hover {
+    @include outline($color);
+  }
+}
