@@ -81,3 +81,12 @@ Example code for column rule classes.
 <div class="column-rule-[INSERT_COLOR_NAME_HERE]"></div>
 <div class="column-rule-hover-[INSERT_COLOR_NAME_HERE]"></div>
 ```
+
+### Outline
+
+Example code for outline classes.
+
+```html
+<div class="outline-[INSERT_COLOR_NAME_HERE]"></div>
+<div class="outline-hover-[INSERT_COLOR_NAME_HERE]"></div>
+```
