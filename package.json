@@ -18,7 +18,7 @@
     "email": "maartenpaauw@gmail.com",
     "url": "http://maartenpaauw.com/"
   },
-  "main": "src/flat-ui-colors.scss",
+  "main": "src/_flat-ui-colors.scss",
   "repository": {
     "type": "git",
     "url": "https://github.com/maartenpaauw/flat-ui-colors-helper.git"
@@ -27,8 +27,8 @@
     "commitmsg": "commitlint -e",
     "precommit": "lint-staged",
     "test": "mocha ./tests/unit/runner.js",
-    "compile": "scss src/flat-ui-colors.scss:flat-ui-colors.css --style expanded",
-    "compile-compressed": "scss src/flat-ui-colors.scss:flat-ui-colors.min.css --style compressed",
+    "compile": "scss src/_flat-ui-colors.scss:flat-ui-colors.css --style expanded",
+    "compile-compressed": "scss src/_flat-ui-colors.scss:flat-ui-colors.min.css --style compressed",
     "build": "npm run compile && npm run compile-compressed"
   },
   "devDependencies": {
