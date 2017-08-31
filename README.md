@@ -72,3 +72,12 @@ Example code for border classes.
 <div class="border-x-hover-[INSERT_COLOR_NAME_HERE]"></div>
 <div class="border-y-hover-[INSERT_COLOR_NAME_HERE]"></div>
 ```
+
+### Column Rule
+
+Example code for column rule classes.
+
+```html
+<div class="column-rule-[INSERT_COLOR_NAME_HERE]"></div>
+<div class="column-rule-hover-[INSERT_COLOR_NAME_HERE]"></div>
+```
