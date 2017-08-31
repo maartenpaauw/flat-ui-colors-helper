@@ -5,3 +5,9 @@
     @include text($color);
   }
 }
+
+@each $label, $color in $flatuicolors {
+  .hover-#{$label} {
+    @include text-hover($color);
+  }
+}

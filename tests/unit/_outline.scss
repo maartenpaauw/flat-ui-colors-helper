@@ -1,7 +1,7 @@
 @import "true";
 @import "../../src/mixins/outline";
 
-@include describe("outline [mixin]") {
+@include describe("outline [mixins]") {
   @include it("outline() should make a valid outline color.") {
     @include assert {
       @include output {
@@ -10,6 +10,20 @@
 
       @include expect {
         outline-color: #123456;
+      }
+    }
+  }
+
+  @include it("outline-hover() should make a valid outline hover color.") {
+    @include assert {
+      @include output {
+        @include outline-hover(#123456);
+      }
+
+      @include expect {
+        &:hover {
+          outline-color: #123456;
+        }
       }
     }
   }
