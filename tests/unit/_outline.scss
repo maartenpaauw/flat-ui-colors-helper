@@ -1,7 +1,7 @@
 @import "true";
 @import "../../src/mixins/outline";
 
-@include describe("outline [mixin]") {
+@include describe("outline [mixins]") {
   @include it("outline() should make a valid outline color.") {
     @include assert {
       @include output {

@@ -1,3 +1,9 @@
 @mixin text ($color) {
   color: $color;
 }
+
+@mixin text-hover ($color) {
+  &:hover {
+    @include text($color);
+  }
+}

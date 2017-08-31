@@ -1,7 +1,7 @@
 @import "true";
 @import "../../src/mixins/text-decoration";
 
-@include describe("text-decoration [mixin]") {
+@include describe("text-decoration [mixins]") {
   @include it("text-decoration() should make a valid text decoration color.") {
     @include assert {
       @include output {

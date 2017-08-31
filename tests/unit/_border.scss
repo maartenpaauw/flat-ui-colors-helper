@@ -1,7 +1,7 @@
 @import "true";
 @import "../../src/mixins/border";
 
-@include describe("border [mixin]") {
+@include describe("border [mixins]") {
   @include it("border() should make a valid border color.") {
     @include assert {
       @include output {
