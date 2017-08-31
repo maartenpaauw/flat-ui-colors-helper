@@ -53,7 +53,14 @@
     ],
     "extends": "stylelint-config-standard",
     "rules": {
-      "at-rule-no-unknown": null
+      "at-rule-no-unknown": [ true, {
+        "ignoreAtRules": [
+          "each",
+          "include",
+          "mixin"
+        ]
+      }],
+      "color-hex-length": "long"
     }
   },
   "greenkeeper": {
