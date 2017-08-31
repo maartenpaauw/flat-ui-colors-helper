@@ -1,7 +1,7 @@
 @import "true";
 @import "../../src/mixins/border";
 
-@include describe("border [mixin]") {
+@include describe("border [mixins]") {
   @include it("border() should make a valid border color.") {
     @include assert {
       @include output {
@@ -84,6 +84,106 @@
       @include expect {
         border-top-color: #123456;
         border-bottom-color: #123456;
+      }
+    }
+  }
+
+  @include it("border-hover() should make a valid border hover color.") {
+    @include assert {
+      @include output {
+        @include border-hover(#123456);
+      }
+
+      @include expect {
+        &:hover {
+          border-color: #123456;
+        }
+      }
+    }
+  }
+
+  @include it("border-top-hover() should make a valid border top hover color.") {
+    @include assert {
+      @include output {
+        @include border-top-hover(#123456);
+      }
+
+      @include expect {
+        &:hover {
+          border-top-color: #123456;
+        }
+      }
+    }
+  }
+
+  @include it("border-bottom-hover() should make a valid border bottom hover color.") {
+    @include assert {
+      @include output {
+        @include border-bottom-hover(#123456);
+      }
+
+      @include expect {
+        &:hover {
+          border-bottom-color: #123456;
+        }
+      }
+    }
+  }
+
+  @include it("border-left-hover() should make a valid border left hover color.") {
+    @include assert {
+      @include output {
+        @include border-left-hover(#123456);
+      }
+
+      @include expect {
+        &:hover {
+          border-left-color: #123456;
+        }
+      }
+    }
+  }
+
+  @include it("border-right-hover() should make a valid border right hover color.") {
+    @include assert {
+      @include output {
+        @include border-right-hover(#123456);
+      }
+
+      @include expect {
+        &:hover {
+          border-right-color: #123456;
+        }
+      }
+    }
+  }
+
+  @include it("border-x-hover() should make a valid border left and right hover color.") {
+    @include assert {
+      @include output {
+        @include border-x-hover(#123456);
+      }
+
+      @include expect {
+        &:hover {
+          border-left-color: #123456;
+          border-right-color: #123456;
+        }
+      }
+    }
+  }
+
+  @include it("border-y-hover() should make a valid border top and bottom hover color.") {
+    @include assert {
+      @include output {
+        @include border-y-hover(#123456);
+      }
+
+      @include expect {
+        &:hover {
+          border-top-color: #123456;
+          border-bottom-color: #123456;
+        }
       }
     }
   }

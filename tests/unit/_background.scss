@@ -1,7 +1,7 @@
 @import "true";
 @import "../../src/mixins/background";
 
-@include describe("background [mixin]") {
+@include describe("background [mixins]") {
   @include it("background() should make a valid background color.") {
     @include assert {
       @include output {
@@ -10,6 +10,20 @@
 
       @include expect {
         background-color: #123456;
+      }
+    }
+  }
+
+  @include it("background-hover() should make a valid background hover color.") {
+    @include assert {
+      @include output {
+        @include background-hover(#123456);
+      }
+
+      @include expect {
+        &:hover {
+          background-color: #123456;
+        }
       }
     }
   }

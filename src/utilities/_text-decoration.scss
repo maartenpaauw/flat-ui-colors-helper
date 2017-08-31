@@ -1,7 +1,13 @@
 @import "../mixins/text-decoration";
 
-@each $label, $color in $flatuicolors {
+@each $label, $color in $flat-ui-colors {
   .text-decoration-#{$label} {
     @include text-decoration($color);
+  }
+}
+
+@each $label, $color in $flat-ui-colors {
+  .text-decoration-hover-#{$label} {
+    @include text-decoration-hover($color);
   }
 }

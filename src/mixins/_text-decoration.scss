@@ -1,3 +1,9 @@
 @mixin text-decoration ($color) {
   text-decoration-color: $color;
 }
+
+@mixin text-decoration-hover ($color) {
+  &:hover {
+    @include text-decoration($color);
+  }
+}

@@ -1,7 +1,13 @@
 @import "../mixins/column-rule";
 
-@each $label, $color in $flatuicolors {
+@each $label, $color in $flat-ui-colors {
   .column-rule-#{$label} {
     @include column-rule($color);
+  }
+}
+
+@each $label, $color in $flat-ui-colors {
+  .column-rule-hover-#{$label} {
+    @include column-rule-hover($color);
   }
 }
