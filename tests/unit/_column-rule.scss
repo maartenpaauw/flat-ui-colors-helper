@@ -15,4 +15,20 @@
       }
     }
   }
+
+  @include it("column-rule-hover() should make a valid column rule hover color.") {
+    @include assert {
+      @include output {
+        @include column-rule-hover(#123456);
+      }
+
+      @include expect {
+        &:hover {
+          -webkit-column-rule-color: #123456;
+          -moz-column-rule-color: #123456;
+          column-rule-color: #123456;
+        }
+      }
+    }
+  }
 }

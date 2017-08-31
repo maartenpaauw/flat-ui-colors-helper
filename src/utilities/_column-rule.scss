@@ -5,3 +5,9 @@
     @include column-rule($color);
   }
 }
+
+@each $label, $color in $flatuicolors {
+  .column-rule-hover-#{$label} {
+    @include column-rule-hover($color);
+  }
+}

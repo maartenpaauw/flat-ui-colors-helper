@@ -3,3 +3,9 @@
   -moz-column-rule-color: $color;
   column-rule-color: $color;
 }
+
+@mixin column-rule-hover ($color) {
+  &:hover {
+    @include column-rule($color);
+  }
+}
