@@ -1,12 +1,12 @@
 @import "../mixins/text";
 
-@each $label, $color in $flatuicolors {
+@each $label, $color in $flat-ui-colors {
   .#{$label} {
     @include text($color);
   }
 }
 
-@each $label, $color in $flatuicolors {
+@each $label, $color in $flat-ui-colors {
   .hover-#{$label} {
     @include text-hover($color);
   }

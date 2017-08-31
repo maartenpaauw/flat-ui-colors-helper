@@ -3,6 +3,7 @@
   "version": "0.0.3",
   "description": "CSS helpers for Flat UI Colors",
   "keywords": [
+    "flat ui colors",
     "flatuicolors",
     "helper",
     "classes"
@@ -17,7 +18,7 @@
     "email": "maartenpaauw@gmail.com",
     "url": "http://maartenpaauw.com/"
   },
-  "main": "src/flatuicolors.scss",
+  "main": "src/flat-ui-colors.scss",
   "repository": {
     "type": "git",
     "url": "https://github.com/maartenpaauw/flat-ui-colors-helper.git"
@@ -26,8 +27,8 @@
     "commitmsg": "commitlint -e",
     "precommit": "lint-staged",
     "test": "mocha ./tests/unit/runner.js",
-    "compile": "scss src/flatuicolors.scss:flatuicolors.css --style expanded",
-    "compile-compressed": "scss src/flatuicolors.scss:flatuicolors.min.css --style compressed",
+    "compile": "scss src/flat-ui-colors.scss:flat-ui-colors.css --style expanded",
+    "compile-compressed": "scss src/flat-ui-colors.scss:flat-ui-colors.min.css --style compressed",
     "build": "npm run compile && npm run compile-compressed"
   },
   "devDependencies": {

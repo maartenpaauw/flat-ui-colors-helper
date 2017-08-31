@@ -1,24 +1,24 @@
 @import "../mixins/background";
 
-@each $label, $color in $flatuicolors {
+@each $label, $color in $flat-ui-colors {
   .background-#{$label} {
     @include background($color);
   }
 }
 
-@each $label, $color in $flatuicolors {
+@each $label, $color in $flat-ui-colors {
   .bg-#{$label} {
     @include background($color);
   }
 }
 
-@each $label, $color in $flatuicolors {
+@each $label, $color in $flat-ui-colors {
   .background-hover-#{$label} {
     @include background-hover($color);
   }
 }
 
-@each $label, $color in $flatuicolors {
+@each $label, $color in $flat-ui-colors {
   .bg-hover-#{$label} {
     @include background-hover($color);
   }
