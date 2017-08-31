@@ -27,3 +27,47 @@
   @include border-top($color);
   @include border-bottom($color);
 }
+
+@mixin border-hover ($color) {
+  &:hover {
+    @include border($color);
+  }
+}
+
+@mixin border-top-hover ($color) {
+  &:hover {
+    @include border-top($color);
+  }
+}
+
+@mixin border-bottom-hover ($color) {
+  &:hover {
+    @include border-bottom($color);
+  }
+}
+
+@mixin border-left-hover ($color) {
+  &:hover {
+    @include border-left($color);
+  }
+}
+
+@mixin border-right-hover ($color) {
+  &:hover {
+    @include border-right($color);
+  }
+}
+
+@mixin border-x-hover ($color) {
+  &:hover {
+    @include border-left($color);
+    @include border-right($color);
+  }
+}
+
+@mixin border-y-hover ($color) {
+  &:hover {
+    @include border-top($color);
+    @include border-bottom($color);
+  }
+}

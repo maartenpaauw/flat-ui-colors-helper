@@ -41,3 +41,45 @@
     @include border-y($color);
   }
 }
+
+@each $label, $color in $flatuicolors {
+  .border-hover-#{$label} {
+    @include border-hover($color);
+  }
+}
+
+@each $label, $color in $flatuicolors {
+  .border-top-hover-#{$label} {
+    @include border-top-hover($color);
+  }
+}
+
+@each $label, $color in $flatuicolors {
+  .border-bottom-hover-#{$label} {
+    @include border-bottom-hover($color);
+  }
+}
+
+@each $label, $color in $flatuicolors {
+  .border-left-hover-#{$label} {
+    @include border-left-hover($color);
+  }
+}
+
+@each $label, $color in $flatuicolors {
+  .border-right-hover-#{$label} {
+    @include border-right-hover($color);
+  }
+}
+
+@each $label, $color in $flatuicolors {
+  .border-x-hover-#{$label} {
+    @include border-x-hover($color);
+  }
+}
+
+@each $label, $color in $flatuicolors {
+  .border-y-hover-#{$label} {
+    @include border-y-hover($color);
+  }
+}
