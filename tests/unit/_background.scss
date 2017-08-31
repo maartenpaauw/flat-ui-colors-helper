@@ -13,4 +13,18 @@
       }
     }
   }
+
+  @include it("background-hover() should make a valid background hover color.") {
+    @include assert {
+      @include output {
+        @include background-hover(#123456);
+      }
+
+      @include expect {
+        &:hover {
+          background-color: #123456;
+        }
+      }
+    }
+  }
 }

@@ -11,3 +11,15 @@
     @include background($color);
   }
 }
+
+@each $label, $color in $flatuicolors {
+  .background-hover-#{$label} {
+    @include background-hover($color);
+  }
+}
+
+@each $label, $color in $flatuicolors {
+  .bg-hover-#{$label} {
+    @include background-hover($color);
+  }
+}
