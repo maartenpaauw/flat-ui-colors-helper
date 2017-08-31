@@ -43,6 +43,15 @@ $black: #000000;
 
 ## Helpers
 
+### Color
+
+Example code for (text) color classes.
+
+```html
+<div class="[INSERT_COLOR_NAME_HERE]"></div>
+<div class="[INSERT_COLOR_NAME_HERE]"></div>
+```
+
 ### Background
 
 Example code for background classes.
