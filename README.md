@@ -90,3 +90,12 @@ Example code for outline classes.
 <div class="outline-[INSERT_COLOR_NAME_HERE]"></div>
 <div class="outline-hover-[INSERT_COLOR_NAME_HERE]"></div>
 ```
+
+### Text Decoration
+
+Example code for text decoration classes.
+
+```html
+<div class="text-decoration-[INSERT_COLOR_NAME_HERE]"></div>
+<div class="text-decoration-hover-[INSERT_COLOR_NAME_HERE]"></div>
+```
