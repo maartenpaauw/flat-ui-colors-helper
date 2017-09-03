@@ -49,7 +49,7 @@ Example code for (text) color classes.
 
 ```html
 <div class="[INSERT_COLOR_NAME_HERE]"></div>
-<div class="[INSERT_COLOR_NAME_HERE]"></div>
+<div class="hover-[INSERT_COLOR_NAME_HERE]"></div>
 ```
 
 ### Background
