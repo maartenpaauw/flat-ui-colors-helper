@@ -1,21 +1,21 @@
 @mixin border ($color) {
-  border-color: $color;
+  border-color: $color !important;
 }
 
 @mixin border-top ($color) {
-  border-top-color: $color;
+  border-top-color: $color !important;
 }
 
 @mixin border-bottom ($color) {
-  border-bottom-color: $color;
+  border-bottom-color: $color !important;
 }
 
 @mixin border-left ($color) {
-  border-left-color: $color;
+  border-left-color: $color !important;
 }
 
 @mixin border-right ($color) {
-  border-right-color: $color;
+  border-right-color: $color !important;
 }
 
 @mixin border-x ($color) {
