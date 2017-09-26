@@ -9,9 +9,9 @@
       }
 
       @include expect {
-        -webkit-column-rule-color: #123456;
-        -moz-column-rule-color: #123456;
-        column-rule-color: #123456;
+        -webkit-column-rule-color: #123456 !important;
+        -moz-column-rule-color: #123456 !important;
+        column-rule-color: #123456 !important;
       }
     }
   }
@@ -24,9 +24,9 @@
 
       @include expect {
         &:hover {
-          -webkit-column-rule-color: #123456;
-          -moz-column-rule-color: #123456;
-          column-rule-color: #123456;
+          -webkit-column-rule-color: #123456 !important;
+          -moz-column-rule-color: #123456 !important;
+          column-rule-color: #123456 !important;
         }
       }
     }

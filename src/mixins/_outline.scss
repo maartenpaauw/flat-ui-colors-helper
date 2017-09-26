@@ -1,5 +1,5 @@
 @mixin outline ($color) {
-  outline-color: $color;
+  outline-color: $color !important;
 }
 
 @mixin outline-hover ($color) {

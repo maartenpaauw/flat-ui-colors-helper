@@ -9,7 +9,7 @@
       }
 
       @include expect {
-        background-color: #123456;
+        background-color: #123456 !important;
       }
     }
   }
@@ -22,7 +22,7 @@
 
       @include expect {
         &:hover {
-          background-color: #123456;
+          background-color: #123456 !important;
         }
       }
     }

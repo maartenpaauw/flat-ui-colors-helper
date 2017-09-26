@@ -1,5 +1,5 @@
 @mixin text ($color) {
-  color: $color;
+  color: $color !important;
 }
 
 @mixin text-hover ($color) {
