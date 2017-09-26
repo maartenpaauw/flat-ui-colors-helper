@@ -9,7 +9,7 @@
       }
 
       @include expect {
-        text-decoration-color: #123456;
+        text-decoration-color: #123456 !important;
       }
     }
   }
@@ -22,7 +22,7 @@
 
       @include expect {
         &:hover {
-          text-decoration-color: #123456;
+          text-decoration-color: #123456 !important;
         }
       }
     }
