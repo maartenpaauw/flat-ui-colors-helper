@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "4.2.0",
-    "@commitlint/config-angular": "3.1.1",
+    "@commitlint/config-angular": "4.2.0",
     "husky": "0.15.0-beta.3",
     "lint-staged": "4.2.3",
     "mocha": "4.0.1",
