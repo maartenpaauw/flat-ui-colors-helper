@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "6.0.2",
-    "@commitlint/config-conventional": "5.2.3",
+    "@commitlint/config-conventional": "6.0.2",
     "husky": "0.15.0-beta.3",
     "lint-staged": "6.0.0",
     "mocha": "4.1.0",
