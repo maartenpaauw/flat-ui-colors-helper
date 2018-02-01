@@ -3,3 +3,4 @@
 package-lock.json
 *.map
 *.css
+!dist/
