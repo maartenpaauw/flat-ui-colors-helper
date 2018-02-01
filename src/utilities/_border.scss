@@ -1,84 +1,84 @@
 @import "../mixins/border";
 
-@each $label, $color in $flat-ui-colors {
+@each $label, $color in $palette-colors {
   .border-#{$label} {
     @include border($color);
   }
 }
 
-@each $label, $color in $flat-ui-colors {
+@each $label, $color in $palette-colors {
   .border-top-#{$label} {
     @include border-top($color);
   }
 }
 
-@each $label, $color in $flat-ui-colors {
+@each $label, $color in $palette-colors {
   .border-bottom-#{$label} {
     @include border-bottom($color);
   }
 }
 
-@each $label, $color in $flat-ui-colors {
+@each $label, $color in $palette-colors {
   .border-left-#{$label} {
     @include border-left($color);
   }
 }
 
-@each $label, $color in $flat-ui-colors {
+@each $label, $color in $palette-colors {
   .border-right-#{$label} {
     @include border-right($color);
   }
 }
 
-@each $label, $color in $flat-ui-colors {
+@each $label, $color in $palette-colors {
   .border-x-#{$label} {
     @include border-x($color);
   }
 }
 
-@each $label, $color in $flat-ui-colors {
+@each $label, $color in $palette-colors {
   .border-y-#{$label} {
     @include border-y($color);
   }
 }
 
-@each $label, $color in $flat-ui-colors {
+@each $label, $color in $palette-colors {
   .border-hover-#{$label} {
     @include border-hover($color);
   }
 }
 
-@each $label, $color in $flat-ui-colors {
+@each $label, $color in $palette-colors {
   .border-top-hover-#{$label} {
     @include border-top-hover($color);
   }
 }
 
-@each $label, $color in $flat-ui-colors {
+@each $label, $color in $palette-colors {
   .border-bottom-hover-#{$label} {
     @include border-bottom-hover($color);
   }
 }
 
-@each $label, $color in $flat-ui-colors {
+@each $label, $color in $palette-colors {
   .border-left-hover-#{$label} {
     @include border-left-hover($color);
   }
 }
 
-@each $label, $color in $flat-ui-colors {
+@each $label, $color in $palette-colors {
   .border-right-hover-#{$label} {
     @include border-right-hover($color);
   }
 }
 
-@each $label, $color in $flat-ui-colors {
+@each $label, $color in $palette-colors {
   .border-x-hover-#{$label} {
     @include border-x-hover($color);
   }
 }
 
-@each $label, $color in $flat-ui-colors {
+@each $label, $color in $palette-colors {
   .border-y-hover-#{$label} {
     @include border-y-hover($color);
   }

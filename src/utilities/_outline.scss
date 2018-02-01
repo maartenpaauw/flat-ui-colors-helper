@@ -1,12 +1,12 @@
 @import "../mixins/outline";
 
-@each $label, $color in $flat-ui-colors {
+@each $label, $color in $palette-colors {
   .outline-#{$label} {
     @include outline($color);
   }
 }
 
-@each $label, $color in $flat-ui-colors {
+@each $label, $color in $palette-colors {
   .outline-hover-#{$label} {
     @include outline-hover($color);
   }
