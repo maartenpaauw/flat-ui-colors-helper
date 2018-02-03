@@ -40,7 +40,7 @@
     "sass-true": "3.0.2",
     "stylelint": "8.4.0",
     "stylelint-config-standard": "18.0.0",
-    "stylelint-scss": "2.2.0"
+    "stylelint-scss": "2.3.0"
   },
   "lint-staged": {
     "*.scss": [
